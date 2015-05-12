@@ -7,5 +7,3 @@ def products():
 @get('/products/<id>')
 def product(id=-1):
     return "This should show a product with id ", id
-
-run(host='localhost', port=8080, debug=True, reloader=True)
